@@ -9,5 +9,8 @@ single-binary web GUI for Colima & Docker (the open-source Docker Desktop altern
 brew install ParadoxInfinite/oriel/oriel
 ```
 
-The `Formula/oriel.rb` file in this repo is generated and updated automatically by
+> macOS only. Linux users: install via the curl one-liner or `go install`
+> (see the [main repo](https://github.com/ParadoxInfinite/oriel#install)).
+
+`Casks/oriel.rb` is generated and updated automatically by
 [GoReleaser](https://goreleaser.com) on each Oriel release — don't edit it by hand.
