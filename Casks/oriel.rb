@@ -4,12 +4,12 @@ cask "oriel" do
 
   on_macos do
     on_intel do
-      sha256 "b4bf36bb273f305fe6c4eba8361f0c80fc811c916c10869a3f98e2693b70c7a9"
+      sha256 "45a09809f7f7add3cde877cff65f892f37328f1323d0fe4364f8142fa74d351e"
       url "https://github.com/ParadoxInfinite/oriel/releases/download/v#{version}/oriel-darwin-amd64"
       binary "oriel-darwin-amd64", target: "oriel"
     end
     on_arm do
-      sha256 "18344f6ac2c87a6a9dda6574de38898ddde7348df0cee4e69015dfa36681492b"
+      sha256 "0c72a516e04c8240c76b5d9f77f1f66801089f78ee60bc6ec416c5a828a8e51d"
       url "https://github.com/ParadoxInfinite/oriel/releases/download/v#{version}/oriel-darwin-arm64"
       binary "oriel-darwin-arm64", target: "oriel"
     end
@@ -17,12 +17,12 @@ cask "oriel" do
 
   on_linux do
     on_intel do
-      sha256 "18fa1c0d877186e8b5d8855894e80cbc44ae518719ee7c117f978240d5a0e128"
+      sha256 "62c04a584b441afcad3dbee7895e08a4fdee132a00d1bb1c5fe019a3db500f06"
       url "https://github.com/ParadoxInfinite/oriel/releases/download/v#{version}/oriel-linux-amd64"
       binary "oriel-linux-amd64", target: "oriel"
     end
     on_arm do
-      sha256 "18c1ef0c72f6cd78c193c04e4001c43ac4fcfd41ec5dd4eeb0c4c69b86b471b6"
+      sha256 "2f9ef90529d9789ff891724e23114e32e3ccc005e3e7c644fee3bec27ce73800"
       url "https://github.com/ParadoxInfinite/oriel/releases/download/v#{version}/oriel-linux-arm64"
       binary "oriel-linux-arm64", target: "oriel"
     end
